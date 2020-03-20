@@ -1,0 +1,147 @@
+body{
+    margin:0;
+    width: 100%;
+    height: 100%;
+}
+
+#sectionTopHeader{
+    background-color: #141414;
+    height: 100px;
+    width: 100%;
+}
+
+#headerH1{
+    float: right;
+    padding-right: 25%;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3bc8da;
+}
+
+#sectionBottomHeader{
+    background-color: #363636;
+    height: 35px;
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Arial';
+    font-weight: bold;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    border-top: 0.1px ridge rgb(163, 163, 163);
+    border-bottom: 0.1px ridge rgb(163, 163, 163);
+    color: white;
+}
+
+#imagesHeader img{
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    -o-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+    position: absolute;
+    left: 1%;
+    top:-264%;
+}
+
+#topLogo:hover{
+    opacity: 0;
+}
+
+#sectionBottomHeaderDroite{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#headerNavBar{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 21%;
+}
+
+#headerNavBar li{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 8%;
+}
+
+#iconAccount{
+    width: 18%;
+}
+
+#flexFull{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0;
+    background-size: cover;
+}
+
+#partieGauche{
+    width: 20%;
+    display:flex;
+    background-image: url('Images/bannieregauche.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    height: 1200px;
+}
+
+#partieCentre{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url('Images/banniere.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+
+#partieDroite{
+    width: 20%;
+    display: flex;
+    background-image: url('Images/bannieredroite.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    height: 1200px;
+}
+
+#mainContent{
+    margin-top: 300px;
+    background-color: rgb(228, 228, 228);
+    height: 500px;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    margin-top: 265px;
+}
+
+#testTop{
+    background-color: rgb(228, 228, 228);
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 2.3%;
+    padding-bottom: 2.3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-right: 30px;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    align-items: center;
+}
+
+#cartIcon{
+    width: 2.5%;
+}
+
+#partieCentreTop{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
