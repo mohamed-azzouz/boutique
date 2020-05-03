@@ -15,7 +15,7 @@ ob_start();
 </head>
 <body>
 	<?php
-	include('header.php');
+	include('header2.php');
 	?>
 	<main>
 		<section id="adminPanel">
@@ -282,7 +282,7 @@ ob_start();
 
 														if(isset($_POST["updateProduits$idProduitDelete"]))
 														{
-															header('location:produits.php?id='.$idProduitDelete.'');
+															header('location:produits.php?id='.$idProduitDelete.'&&modif');
 														}
 													?>	
 												</tr>
